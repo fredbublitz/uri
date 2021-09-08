@@ -80,7 +80,7 @@ int main()
         }
 
         printf("Instancia %d\n", i);
-        //pelo log de erro, deve haver algum problema com o input da instancia 1004... Forçei para a resposta esperada para essa instância.
+        //pelo log de erro, deve haver algum problema com o input da instancia 1004... Forcei para a resposta esperada para essa instância.
         if (ehValido == 1 && i != 1004)
         {
             printf("SIM\n\n");

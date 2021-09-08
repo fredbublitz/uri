@@ -26,7 +26,7 @@ int main()
     // "flag" para indicar se o jogo é válido.
     int ehValido;
 
-    // numero de instâncias de jogos (matgrizes) a serem verificadas
+    // numero de instâncias de jogos (matrizes) a serem verificadas
     scanf("%d", &k);
 
     //Laço para avaliar cada instância de jogo
@@ -47,7 +47,6 @@ int main()
         int j, k;
         for (j = 0; j < 9; j++)
         {
-            validaLinha[j] = 0;
             for (k = 0; k < 9; k++)
             {
                 scanf("%d", &jogo[j][k]);

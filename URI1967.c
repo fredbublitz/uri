@@ -142,7 +142,7 @@ int main()
              * "+(j>0)"                 - teste lógico que adiciona +1 espaço a partir da 2 coluna
              */
             printf("%*d", contaDigitos(maiorNumeroColuna[j]) + (j > 0), tabela1x2x3[i][j]);
-            //printf("%d", tabela1x2x3[i][j]);
+            //printf("%d ", tabela1x2x3[i][j]);
             
         }
         printf("\n");

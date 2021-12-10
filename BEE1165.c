@@ -2,27 +2,33 @@
 
 int main()
 {
-    int numero, contador;
+    int X, numero, contador;
     int totalDiv = 0;
 
-    scanf("%d", &numero);
+    scanf("%d", &X);
 
-    //Laço que vai verificar as divisões
-    for (contador = 1; contador <= numero; contador++)
+    int i;
+    for (i = 0; i < X; i++)
     {
-        if (numero % contador == 0)
+        scanf("%d", &numero);
+        totalDiv = 0;
+        //Laço que vai verificar as divisões
+        for (contador = 1; contador <= numero; contador++)
         {
-            totalDiv++;
+            if (numero % contador == 0)
+            {
+                totalDiv++;
+            }
         }
-    }
 
-    if (totalDiv > 2)
-    {
-        printf("%d nao eh primo\n", numero);
-    }
-    else
-    {
-        printf("%d eh primo\n", numero);
+        if (totalDiv > 2)
+        {
+            printf("%d nao eh primo\n", numero);
+        }
+        else
+        {
+            printf("%d eh primo\n", numero);
+        }
     }
 
     return 0;

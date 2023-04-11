@@ -3,7 +3,7 @@
 
 int main()
 {
-
+    //Comentario
     int N;
     char placa[100];
     int tamanhoDaPlaca;

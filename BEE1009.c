@@ -15,6 +15,7 @@ int main()
 
     // nome do vendedor
     scanf("%s", nome);
+    // salário
     scanf("%lf", &salario);
     scanf("%lf", &vendas);
 

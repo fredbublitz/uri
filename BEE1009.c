@@ -16,6 +16,7 @@ int main()
     // nome do vendedor
     scanf("%s", nome);
     scanf("%lf", &salario);
+    // vendas
     scanf("%lf", &vendas);
 
     double total = salario + (vendas * 0.15);

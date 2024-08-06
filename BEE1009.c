@@ -13,6 +13,7 @@ int main()
     double salario;
     double vendas;
 
+    // nome do vendedor
     scanf("%s", nome);
     scanf("%lf", &salario);
     scanf("%lf", &vendas);
